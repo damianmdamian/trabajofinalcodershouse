@@ -1,0 +1,122 @@
+/*HOJA DE ESTILOS PARA TODOS LOS HTML*/
+/* RESET*/
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+
+
+
+
+/* ESTILO DEL HEADER */
+
+header {
+    display: flex;
+    background-color:rgb(248, 249, 250) ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 15%;
+}
+
+header nav ul {
+    list-style: none;
+    color: #F79122; 
+    display: flex;
+    gap: 1rem;
+    padding: 50px;
+    justify-content: right;
+    
+}
+ header nav ul a {
+    color: #F79122; 
+    text-decoration: none;
+    font-weight: bold;
+    font-variant-caps:all-small-caps;
+ }
+
+ /* ESTILOS DEL MAIN */
+
+    main{
+        background-image: url("img/bgimage.jpg");
+    }
+     
+    .imagenesdestacadas{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fotoindex {
+        display: flex;
+    }
+
+    .imagenprincipal{
+        width: 75%;
+        display: flex;
+        justify-self: center;
+            }
+
+
+/*ESTILO TABLET */
+    @media (min-width: 700px) {
+        main .imagenprincipal{
+            width: 60%;
+}
+/*ESTILO DESKTOP */
+    @media (min-width: 1024px) {
+    main .imagenprincipal{
+        width: 40%;
+}
+
+h1 {
+    color: #F79122;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    
+}
+h2 {
+    color: black;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+
+}
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+        
+}
+p {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* ESTILOS DEL FOOTER */
+footer{
+    font-size: smaller;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color:rgba(169, 169, 169, 0.253) ;
+}
