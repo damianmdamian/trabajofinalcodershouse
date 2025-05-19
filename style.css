@@ -37,6 +37,11 @@ header nav ul {
     font-variant-caps:all-small-caps;
  }
 
+ .logoencab:hover {
+    -webkit-transform:scale(1.1);transform:scale(1.1);
+
+ }
+
  /* ESTILOS DEL MAIN */
 
     main{
@@ -62,6 +67,9 @@ header nav ul {
         justify-self: center;
             }
 
+    .logosrrss:hover{
+        border-radius:50% ;
+    }
 
 /*ESTILO TABLET */
     @media (min-width: 700px) {
